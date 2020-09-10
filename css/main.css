@@ -1,0 +1,80 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+  }
+  
+  
+  
+  *:before,
+  *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  
+  html{
+    overflow-x: hidden;
+  }
+  
+  body {
+  background-color:#43302E;
+  color: #FCF3F3;
+  min-height: 100%;
+  min-width: 100%;
+  font-family: ; 
+  padding:0 0;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px; margin-left: 0px;
+  overflow-x: hidden;
+  }
+  div, input, button, form, span, a, ul, li {
+    box-sizing: border-box;
+  }
+
+  .container{
+      width: 1024px;
+      margin: 0 auto;
+      display: flex;
+  }
+ 
+  .resume {
+    text-align: left;
+    font-family: Open Sans Hebrew;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 400.4%;
+   
+  }
+ 
+.line {
+margin-right: 50px;
+margin-left: 80px;
+}
+
+  .name {   
+font-family: Open Sans Hebrew;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 300.4%;
+  }
+.data {
+    text-decoration: underline;
+
+}
+.block {
+ margin-top: 20px;
+ width: 500px;
+}
+.myphoto{
+    height: 500px;
+   
+}
+
+.wrapper{
+    display: flex;
+    margin-bottom: 50px;
+}
